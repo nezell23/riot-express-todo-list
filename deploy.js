@@ -95,7 +95,7 @@ function sshConnect() {
             return installPM2();
         })
         .then(function () {
-            console.log('Creating `hackathon-starter-temp` folder.');
+            console.log('Creating `riot-express-todo-list-temp` folder.');
             return createRemoteTempFolder();
         })
         .then(function (result) {
